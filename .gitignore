@@ -1,0 +1,11 @@
+# npm
+node_modules
+package-lock.json
+
+# build
+./main.js
+*.js.map
+*.swp
+docs/test-vault/.obsidian/plugins/obsidian-trade-diary/main.js
+docs/test-vault/.obsidian/plugins/obsidian-trade-diary/manifest.json
+docs/test-vault/.obsidian/workspace.json

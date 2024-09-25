@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-trade-diary",
+  "name": "Obsidian Trade Diary",
+  "version": "0.0.0",
+  "minAppVersion": "0.9.17",
+  "description": "Obsidian trade diary",
+  "author": "VageLO",
+  "authorUrl": "https://github.com/VageLO",
+  "isDesktopOnly": true
+}
