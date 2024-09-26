@@ -9,8 +9,8 @@
     "test": "jest"
   },
   "keywords": [
-    "obsidian"
-    "trade"
+    "obsidian",
+    "trade",
     "diary"
   ],
   "author": "",
@@ -36,7 +36,9 @@
   },
   "dependencies": {
     "@types/showdown": "^1.9.3",
+    "binance": "^2.13.3",
+    "obsidian-daily-notes-interface": "^0.9.2",
     "showdown": "^1.9.1",
-    "obsidian-daily-notes-interface": "^0.9.2"
+    "socks-proxy-agent": "^8.0.4"
   }
 }
