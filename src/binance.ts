@@ -2,6 +2,8 @@ import { MainClient } from 'binance';
 import { ISettings } from 'src/types/settings';
 
 export class BinanceService {
+    private client: MainClient
+    private settings: ISettings
 
     constructor(settings: ISettings) {
         this.client = new MainClient({

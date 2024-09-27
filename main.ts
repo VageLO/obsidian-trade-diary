@@ -1,7 +1,11 @@
 import { Plugin } from 'obsidian';
 import { getDailyNote, createDailyNote, getAllDailyNotes } from 'obsidian-daily-notes-interface';
+
 import { ISettings } from 'src/types/settings';
+
 import { SettingsTab } from 'src/gui/settings';
+import { orderTable } from 'src/gui/table';
+
 import { BinanceService } from 'src/binance';
 
 export default class TradeDiaryObsidian extends Plugin {
@@ -21,6 +25,8 @@ export default class TradeDiaryObsidian extends Plugin {
 			    return true;
 			}
 		});
+        //@ts-ignore
+        window.orderTable = (el: HTMLElement): void => orderTable(el)
     }
 
     async onunload() {

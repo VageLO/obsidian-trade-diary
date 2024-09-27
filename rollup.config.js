@@ -37,6 +37,10 @@ const DEV_PLUGIN_CONFIG = {
             targets: [{
                 src: 'manifest.json',
                 dest: 'docs/test-vault/.obsidian/plugins/obsidian-trade-diary/'
+            },
+            {
+                src: 'styles.css',
+                dest: 'docs/test-vault/.obsidian/plugins/obsidian-trade-diary/'
             }]
         })
     ]
